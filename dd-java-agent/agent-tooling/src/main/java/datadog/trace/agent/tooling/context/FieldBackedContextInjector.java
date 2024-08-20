@@ -30,7 +30,7 @@ import net.bytebuddy.pool.TypePool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/** Injects fields and accessors so the class can act as a surrogate {@link ContextStore}. */
+/** Injects fields and accessors so the class can act as a surrogate {@link ContextStore}. Test */
 public final class FieldBackedContextInjector implements AsmVisitorWrapper {
 
   private static final Logger log = LoggerFactory.getLogger(FieldBackedContextInjector.class);
